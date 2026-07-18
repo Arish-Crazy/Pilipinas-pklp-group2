@@ -12,8 +12,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "flames-template-local",
-      "database_id": "00000000-0000-0000-0000-000000000000"
+      "database_name": "arish",
+      "database_id": "dbcaa294-a63a-4610-be69-02aff0dc5ed0v"
     }
   ]
 }
