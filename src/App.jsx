@@ -3,7 +3,6 @@ import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import RegionSelector from './components/RegionSelector.jsx'
 import RegionSection from './components/RegionSection.jsx'
-
 function App() {
   const [activeRegion, setActiveRegion] = useState('luzon')
   const regionOrder = useMemo(() => ['luzon', 'visayas', 'mindanao'], [])
