@@ -16,3 +16,49 @@ body {
   background: #ff385c;
   color: white;
 }
+
+#map {
+  width: 85%;
+  height: 600px;
+  margin: 30px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.custom-marker {
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.luzon-marker {
+  color: green;
+}
+
+.visayas-marker {
+  color: blue;
+}
+
+.mindanao-marker {
+  color: orange;
+}
+
+.custom-cluster {
+  background: transparent;
+  border: none;
+}
+
+.cluster-marker {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  border: 3px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
